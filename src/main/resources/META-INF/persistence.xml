@@ -1,0 +1,21 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+        version="2.0">
+    <persistence-unit name="punit" transaction-type="RESOURCE_LOCAL"  >
+    	<class>com.nevii.model.Ex</class>
+        <class>com.nevii.model.FacilitiesOnSite</class>
+        <class>com.nevii.model.Protection</class>
+        <class>com.nevii.model.RiskControll</class>
+        <class>com.nevii.model.Hydrant</class>
+        <class>com.nevii.model.FireAlarm</class>
+        <class>com.nevii.model.FireExtinguisher</class>
+        <class>com.nevii.model.LightningConductor</class>
+        <class>com.nevii.model.FireFightingIns</class>
+        <class>com.nevii.model.Controls</class>
+		<class>com.nevii.model.Neighbors</class>
+		<class>com.nevii.model.Silotermometer</class>
+		<class>com.nevii.model.Report</class>
+		<class>com.nevii.model.Comintents</class>
+    </persistence-unit>
+</persistence>
